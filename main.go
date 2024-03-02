@@ -23,5 +23,5 @@ func main() {
 			fmt.Printf("Order %d completed\n", orderNum)
 		}(i)
 	}
-	wg.Wait() // 等待所有订单处理完毕
+	wg.Wait()
 }
